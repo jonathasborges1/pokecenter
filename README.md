@@ -73,15 +73,22 @@ Nest is [MIT licensed](LICENSE).
 
 ## End point
 
-[Nest] [RoutesResolver] ClienteController {/cliente}
-[Nest] [RouterExplorer] Mapped {/cliente, POST} 
-[Nest] [RouterExplorer] Mapped {/cliente/:id, GET} 
-[Nest] [RouterExplorer] Mapped {/cliente, GET} 
-[Nest] [RouterExplorer] Mapped {/cliente/:id, PUT} 
-[Nest] [RouterExplorer] Mapped {/cliente/:id, DELETE}
+>[Nest] [RoutesResolver] ClienteController {/cliente}
 
-[Nest] [RoutesResolver] SaldoController {/saldo}
-[Nest] [RouterExplorer] Mapped {/saldo/:id, GET} 
+- [Nest] [RouterExplorer] Mapped {/cliente, POST} 
 
-[Nest] [RoutesResolver] TransacaoController {/transacao}: 
-[Nest] [RouterExplorer] Mapped {/transacao/:id, POST} route +4ms
+- [Nest] [RouterExplorer] Mapped {/cliente/:id, GET}
+
+- [Nest] [RouterExplorer] Mapped {/cliente, GET} 
+
+- [Nest] [RouterExplorer] Mapped {/cliente/:id, PUT}
+
+- [Nest] [RouterExplorer] Mapped {/cliente/:id, DELETE}
+
+>[Nest] [RoutesResolver] SaldoController {/saldo}
+
+- [Nest] [RouterExplorer] Mapped {/saldo/:id, GET} 
+
+> [Nest] [RoutesResolver] TransacaoController {/transacao}
+
+- [Nest] [RouterExplorer] Mapped {/transacao/:id, POST}
